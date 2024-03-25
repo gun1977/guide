@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	<meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>GUIDE</title>
+	
+	<link rel="stylesheet" type="text/css" href="../../../resources/front/css/common.css" />
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="../../../resources/front/js/monthyearpicker.js"></script>
+
+	<script src="../../../resources/front/js/common.js"></script>
+</head>
+
+<body>
+
+<!-- skip -->
+<script type="text/javascript" src="../../../resources/front/js/inc_skip.js"></script>
+<!-- //skip-->
+
+<div class="bui-wrap" style="padding-top:0;">
+	<header style="/*height:80px;*/ background:#eee;">
+		<div style="display: flex;
+		justify-content: space-between;
+		align-items: center;max-width:1200px; margin:0 auto;">
+			<div>logo</div>
+			<div>
+				<ul style="display:flex; column-gap:60px;">
+					<li style="display:flex; justify-content:center; align-items:center;"><a href="#" style="display:block; padding:50px 0;">menu01</a></li>
+					<li style="display:flex; justify-content:center; align-items:center;"><a href="#" style="display:block; padding:50px 0;">menu02</a></li>
+					<li style="display:flex; justify-content:center; align-items:center;"><a href="#" style="display:block; padding:50px 0;">menu03</a></li>
+					<li style="display:flex; justify-content:center; align-items:center;"><a href="#" style="display:block; padding:50px 0;">menu04</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul style="display:flex; column-gap:10px;">
+					<li><a href="#">util01</a></li>
+					<li><a href="#">util02</a></li>
+					<li><a href="guide.html">guide</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div id="container" class="container" style="min-height:300px;">
+		<div class="content">
+		</div>
+	</div>
+
+	<footer style="height:80px; color:#fff; line-height:80px; background:#000; text-align:center;">
+		<div>
+			© Copyright U:Companion
+		</div>
+	</footer>
+</div>
+
+<script>
+$(function() {
+	var fixmeTop = $('.qwer').offset().top;
+	
+	$(window).scroll(function() {
+		var currentScroll = $(window).scrollTop();
+		if (currentScroll > fixmeTop) {
+			$(".qwer").addClass("fixed");
+		} else {
+			$(".qwer").removeClass("fixed");
+		}
+	});
+});
+</script>
+
+</body>
+</html>

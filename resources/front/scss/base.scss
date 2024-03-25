@@ -1,0 +1,190 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+// @import 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap';
+
+// roboto
+@font-face {
+	font-family: "roboto";
+	font-weight: 900;
+	font-style: normal;
+	src: url("../fonts/roboto-v30-latin-900.eot");
+	src: url("../fonts/roboto-v30-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin-900.woff") format("woff"), url("../fonts/roboto-v30-latin-900.ttf") format("truetype"), url("../fonts/roboto-v30-latin-900.svg#roboto-v30-latin-900") format("svg");
+}
+@font-face {
+	font-family: "roboto";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../fonts/roboto-v30-latin-700.eot");
+	src: url("../fonts/roboto-v30-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), url("../fonts/roboto-v30-latin-700.woff") format("woff"), url("../fonts/roboto-v30-latin-700.ttf") format("truetype"), url("../fonts/roboto-v30-latin-700.svg#roboto-v30-latin-700") format("svg");
+}
+@font-face {
+	font-family: "roboto";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../fonts/roboto-v30-latin-500.eot");
+	src: url("../fonts/roboto-v30-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff"), url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin-500.svg#roboto-v30-latin-500") format("svg");
+}
+@font-face {
+	font-family: "roboto";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/roboto-v30-latin-regular.eot");
+	src: url("../fonts/roboto-v30-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"), url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin-regular.svg#roboto-v30-latin-regular") format("svg");
+}
+
+// notokr
+@font-face {
+	font-family: "notokr";
+	font-weight: 900;
+	font-style: normal;
+	src: url("../fonts/notokr-black.eot");
+	src: url("../fonts/notokr-black.eot?#iefix") format("embedded-opentype"), url("../fonts/notokr-black.woff2") format("woff2"), url("../fonts/notokr-black.woff") format("woff"), url("../fonts/notokr-black.ttf") format("truetype"), url("../fonts/notokr-black.svg#notokr-black") format("svg");
+}
+@font-face {
+	font-family: "notokr";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../fonts/notokr-bold.eot");
+	src: url("../fonts/notokr-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/notokr-bold.woff2") format("woff2"), url("../fonts/notokr-bold.woff") format("woff"), url("../fonts/notokr-bold.ttf") format("truetype"), url("../fonts/notokr-bold.svg#notokr-bold") format("svg");
+}
+@font-face {
+	font-family: "notokr";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../fonts/notokr-medium.eot");
+	src: url("../fonts/notokr-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/notokr-medium.woff2") format("woff2"), url("../fonts/notokr-medium.woff") format("woff"), url("../fonts/notokr-medium.ttf") format("truetype"), url("../fonts/notokr-medium.svg#notokr-medium") format("svg");
+}
+@font-face {
+	font-family: "notokr";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/notokr-regular.eot");
+	src: url("../fonts/notokr-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/notokr-regular.woff2") format("woff2"), url("../fonts/notokr-regular.woff") format("woff"), url("../fonts/notokr-regular.ttf") format("truetype"), url("../fonts/notokr-regular.svg#notokr-regular") format("svg");
+}
+
+
+:root {
+	// color
+	--color_wh: #ffffff;
+	--color_bk: #000000;
+
+	--normal-00: #ffffff;
+	--normal-10: #000000;
+	--normal-01: #181818;
+	--normal-02: #303030;
+	--normal-03: #767676;
+	--normal-04: #a9a9a9;
+	--normal-05: #d9d9d9;
+	--accent-00: #ffffff;
+	--accent-01: #3617ce;
+	--accent-02: #ff404e;
+	--accent-03: #ff970f;
+	--accent-04: #ffc606;
+
+	//size button
+	--btn-ss: 28px;
+	--btn-sm: 48px;
+	--btn-sl: 68px;
+
+	//size form
+	--form-ss: 28px;
+	--form-sm: 48px;
+	--form-sl: 68px;
+
+	//size tab
+	--tab-ss: 28px;
+	--tab-sm: 48px;
+	--tab-sl: 68px;
+
+	//form
+	--form-font: #000000;
+	--form-font-placeholder: #888888;
+	--form-line: #b4b4b4;
+	--form-bg: #ffffff;
+
+	--form-disable-font: #000000;
+	--form-disable-font-placeholder: #888888;
+	--form-disable-line: #e3e3e3;
+	--form-disable-bg: #e3e3e3;
+
+	--form-line-focus: #2435d0;
+	--form-line-readonly: #dddddd;
+	--form-line-error: #4cbf7d;
+	--form-line-valid: #4cbf7d;
+	--form-line-invalid: #fd5460;
+
+	//elements
+	--radio-bg: #ffffff;
+	--radio-line: #dddddd;
+	--radio-mark: #000000;
+	--radio-disable: #dddddd;
+
+	--check-bg: #ffffff;
+	--check-line: #dddddd;
+	--check-mark: #000000;
+	--check-disable: #dddddd;
+
+	--switch-bg-off: #a7a7a7;
+	--switch-bg-on: #000000;
+}
+
+/* standard css start */
+body, div, 
+h1, h2, h3, h4, h5, h6, 
+ul, ol, li, 
+dl, dt, dd, 
+p, span, a, 
+table, thead, tfoot, tbody, th, td, 
+form, legend, label, 
+input, textarea, address, 
+strong, em, pre, q, abbr, acronym, cite, blockquote, object, 
+iframe {
+	margin:0; padding:0;
+}
+
+body {
+	font-family: 'roboto', 'notokr', sans-serif; 
+	font-size:16px; 
+	color:var(--normal-01); 
+	line-height:1; 
+	/*letter-spacing:-0.5px;*/ 
+	-webkit-text-size-adjust: none;
+}
+img, fieldset, hr {border:0; margin:0; padding:0;}
+img {vertical-align:top;}
+ul, ol, li {list-style-type:none; list-style:none;}
+select, input, textarea {vertical-align:middle;}
+table {border-collapse:collapse;}
+address {font-style:normal;}
+hr {clear:both; display:none;}
+legend, caption {width:0; height:0; font-size:0; line-height:0; visibility:hidden; overflow:hidden;}
+
+a:link,a:visited			{color:var(--normal-01);; text-decoration:none;}
+a:hover,a:active,a:focus	{color:var(--normal-01);; text-decoration:none;}
+
+input, textarea			{appearance:none; -webkit-appearance:none; border-radius:0; -webkit-border-radius:0; box-sizing:border-box; -moz-appearance:none;}
+input[type="text"]		{appearance:none; -webkit-appearance:none; border-radius:0; -webkit-border-radius:0; box-sizing:border-box; -moz-appearance:none;}
+input[type="checkbox"]	{appearance:none; -webkit-appearance:none; border-radius:0; -webkit-border-radius:0; box-sizing:border-box; -moz-appearance:none;}
+input[type="radio"]		{appearance:none; -webkit-appearance:none; border-radius:0; -webkit-border-radius:0; box-sizing:border-box; -moz-appearance:none;}
+select					{appearance:none; -webkit-appearance:none; border-radius:0; -webkit-border-radius:0; box-sizing:border-box; -moz-appearance:none;}
+
+input:focus     {outline:none;}
+textarea:focus  {outline:none;}
+select:focus    {outline:none;}
+
+/* skip navigation */
+#skipnav {position:absolute; top:0; left:0; width:100%; z-index:1000000000000000000000000;}
+#skipnav a {position:absolute; top:-9999px; z-index:1000000000000000000000000;}
+#skipnav a:hover,
+#skipnav a:active,
+#skipnav a:focus {top:0; width:100%; color:#fff; font-weight:bold; text-align:center; display:inline-block; background-color:#000; border:3px solid #000; padding:5px 0;}
+
+.left {text-align:left !important;}
+.center {text-align:center !important;}
+.right {text-align:right !important;}
+
+.button-area {display:flex; column-gap:10px;}
+.button-area.left {justify-content:flex-start;}
+.button-area.center {justify-content:center;}
+.button-area.right {justify-content:flex-end;}
+
+.form-area {display:flex; column-gap:10px;}
